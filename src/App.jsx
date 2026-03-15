@@ -5,6 +5,8 @@ import TrustedBy from './components/TrustedBy';
 import Services from './components/Services';
 
 
+
+
 const App = () => {
 
   const [theme, setTheme] = useState(localStorage.getItem('theme') ? localStorage.getItem('theme') : 'light')
@@ -15,6 +17,7 @@ const App = () => {
       <Hero />
       <TrustedBy />
       <Services />
+      
     </div>
   );
 };
